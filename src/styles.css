@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  color: cyan;
+}
+
+.ulist {
+  margin: 50px;
+}
+
+.list {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+}
+
+.links {
+  padding: 1rem;
+  text-decoration: none;
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.result {
+  width: 50%;
+  margin: auto;
+}
+
+.entry {
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 10px;
+}
