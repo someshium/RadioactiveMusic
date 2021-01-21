@@ -8,14 +8,16 @@ h1 {
   color: cyan;
 }
 
+.nav {
+}
 .ulist {
-  margin: 50px;
+  width: 50%;
+  margin: auto;
 }
 
 .list {
   list-style-type: none;
   display: inline;
-  margin: 5px;
 }
 
 .links {
@@ -28,7 +30,7 @@ h1 {
 }
 
 .result {
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 

@@ -5,7 +5,7 @@ export default function App() {
   var sanskrit = [
     { name: "Ayigiri Nandini", rating: "5/5" },
     { name: "Rudrashtakam", rating: "4.5/5" },
-    { name: "KaalBhairavashtakam", rating: "4.5/5" }
+    { name: "Kaal Bhairavashtakam", rating: "4.5/5" }
   ];
   var rap = [
     { name: "raat jashan di ft YO YO Honey Singh", rating: "4.7/5" },
@@ -15,7 +15,7 @@ export default function App() {
   var english = [
     { name: "Believer", rating: "5/5" },
     { name: "Hall of Fame", rating: "4.5/5" },
-    { name: "KaalBhairavashtakam", rating: "4.5/5" }
+    { name: "Don't let me Down", rating: "4.5/5" }
   ];
   var [showvalue, resetshowvalue] = useState("");
 
@@ -49,8 +49,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 class="heading">Radioactive Music ⚛️ </h1>
-      <h2>Try something in new, EveryDay!</h2>
+      <h1 class="heading">️⚛ Radioactive Music </h1>
+      <h2>Try something new, EveryDay!</h2>
       <div className="nav">
         <ul className="ulist">
           <li className="list">
