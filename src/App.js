@@ -3,9 +3,9 @@ import "./styles.css";
 
 export default function App() {
   var sanskrit = [
-    { name: "Ayigiri Nandini", rating: "5/5" },
-    { name: "Rudrashtakam", rating: "4.5/5" },
-    { name: "Kaal Bhairavashtakam", rating: "4.5/5" }
+    { name: "Ayigiri Nandini", rating: "5/5", link:"https://open.spotify.com/track/0adBiP7XdpCxoPBFTgHA9L?si=GK7jUXKPT4aLa-stCke3Ng" },
+    { name: "Rudrashtakam", rating: "4.5/5", link:"https://open.spotify.com/track/0adBiP7XdpCxoPBFTgHA9L?si=GK7jUXKPT4aLa-stCke3Ng" },
+    { name: "Kaal Bhairavashtakam", rating: "4.5/5", link:"https://open.spotify.com/track/0adBiP7XdpCxoPBFTgHA9L?si=GK7jUXKPT4aLa-stCke3Ng"}
   ];
   var rap = [
     { name: "raat jashan di ft YO YO Honey Singh", rating: "4.7/5" },
@@ -24,6 +24,7 @@ export default function App() {
       <div className="entry">
         <p>{x.name}</p>
         <p>{x.rating}</p>
+        <p><a href= {x.link}>Link</a></p>
       </div>
     ));
     resetshowvalue(res);
